@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <!-- Lien vers CSS Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mon Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Section À propos -->
+<section id="about" class="p-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>À propos de moi</h2>
+                <p>Je suis un développeur web passionné avec de l'expérience en développement front-end et back-end. Je crée des sites web modernes, fonctionnels et attractifs.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="profil.jpg" alt="Ma photo" class="img-fluid rounded-circle">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Compétences -->
+<section id="skills" class="p-5 text-white bg-dark">
+    <div class="container">
+        <h2 class="text-center">Compétences</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <i class="bi bi-code-slash" style="font-size: 2rem;"></i>
+                <h3>Développement Front-End</h3>
+                <p>HTML, CSS, JavaScript, Bootstrap</p>
+            </div>
+            <div class="col-md-4">
+                <i class="bi bi-server" style="font-size: 2rem;"></i>
+                <h3>Développement Back-End</h3>
+                <p>Python, Django, PHP</p>
+            </div>
+            <div class="col-md-4">
+                <i class="bi bi-database" style="font-size: 2rem;"></i>
+                <h3>Base de Données</h3>
+                <p>MySQL, PostgreSQL</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Projets -->
+<section id="projects" class="p-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Projets</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projet1.jpg" class="card-img-top" alt="Projet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 1</h5>
+                        <p class="card-text">Description du projet.</p>
+                        <a href="#" class="btn btn-primary">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projet2.jpg" class="card-img-top" alt="Projet 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 2</h5>
+                        <p class="card-text">Description du projet.</p>
+                        <a href="#" class="btn btn-primary">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projet3.jpg" class="card-img-top" alt="Projet 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 3</h5>
+                        <p class="card-text">Description du projet.</p>
+                        <a href="#" class="btn btn-primary">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Contact -->
+<section id="contact" class="p-5 bg-dark text-white">
+    <div class="container">
+        <h2 class="text-center">Contact</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+<!-- Script Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
