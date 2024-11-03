@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <!-- Lien vers CSS Bootstrap -->
+   
+    <link rel="stylesheet" href="./js_css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mon Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Section À propos -->
+<section id="about" class="p-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>À propos de moi</h2>
+                <p>Je suis un développeur web passionné avec de l'expérience en développement front-end et back-end. Je crée des sites web modernes, fonctionnels et attractifs.</p>
+            </div>
+            <div class="col-md-6 ms-auto">
+                <img src="./image/andreprtr.png" alt="Ma photo" width="50%" class="img-fluid rounded-circle">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Compétences -->
+<section id="skills" class="p-5 text-white bg-dark">
+    <div class="container">
+        <h2 class="text-center"><u>Compétences</u></h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <i class="bi bi-code-slash" style="font-size: 2rem;"></i>
+                <h3>Développement Front-End</h3>
+                <p>HTML, CSS, JavaScript, Bootstrap</p>
+            </div>
+            <div class="col-md-4">
+                <i class="bi bi-server" style="font-size: 2rem;"></i>
+                <h3>Développement Back-End</h3>
+                <p>Python, Django, PHP</p>
+            </div>
+            <div class="col-md-4">
+                <i class="bi bi-database" style="font-size: 2rem;"></i>
+                <h3>Base de Données</h3>
+                <p>MySQL, PostgreSQL</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Projets -->
+<section id="projects" class="p-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Projets</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projet1.jpg" class="card-img-top" alt="Projet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 1</h5>
+                        <p class="card-text">Description du projet.</p>
+                        <a href="#" class="btn btn-primary">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projet2.jpg" class="card-img-top" alt="Projet 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 2</h5>
+                        <p class="card-text">Description du projet.</p>
+                        <a href="#" class="btn btn-primary">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projet3.jpg" class="card-img-top" alt="Projet 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 3</h5>
+                        <p class="card-text">Description du projet.</p>
+                        <a href="#" class="btn btn-primary">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Contact -->
+<section id="contact" class="p-5 bg-dark text-white">
+    <footer class="container">
+        <div class="row">
+            <div class="col-md-4 me-auto">
+                <a class="nav-link link-warning" href="mailto:andersonkamateakm@gmail.com">Contact</a>
+            </div>
+            <div class="col-md-4 mx-auto">
+                <a class="text-decoration-none" href="#">fb</a>
+                <a href="#">insta</a>
+                <a href="#">tiktok</a>
+                <a href="#">linkeIn</a>
+            </div>
+            <div class="col-md-4 ms-auto text-info"> 
+                copy right 2024, anderson kamate all right reserved
+            </div>
+        </div>
+    </footer>
+</section>
+
+<!-- Script Bootstrap -->
+ <script src="./js_css/bootstrap.bundle.min.js"></script>
+</body>
+</html>
