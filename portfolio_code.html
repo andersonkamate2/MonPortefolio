@@ -8,11 +8,13 @@
     <!-- Lien vers CSS Bootstrap -->
    
     <link rel="stylesheet" href="./js_css/bootstrap.min.css">
+    <link rel="stylesheet" href="./js_css/tooplate-mini-finance.css">
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<header class="">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #8e44ad;">
     <div class="container">
         <a class="navbar-brand" href="#">Mon Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -20,46 +22,46 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="portfolio_code.html">Accueil</a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li> -->
+                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
-
+</header>
 <!-- Section À propos -->
-<section id="about" class="p-5 bg-light">
+<section id="about" class="">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <h2>À propos de moi</h2>
                 <p>Je suis un développeur web passionné avec de l'expérience en développement front-end et back-end. Je crée des sites web modernes, fonctionnels et attractifs.</p>
             </div>
-            <div class="col-md-6 ms-auto">
-                <img src="./image/andreprtr.png" alt="Ma photo" width="50%" class="img-fluid rounded-circle">
+            <div class="col-md-6 ms-auto bg-dark">
+                <img class="custom-block-profile-image img-fluid" src="./image/andreprtr.png" alt="Ma photo" >
             </div>
         </div>
     </div>
 </section>
 
 <!-- Section Compétences -->
-<section id="skills" class="p-5 text-white bg-dark">
+<section id="skills" class="p-5">
     <div class="container">
-        <h2 class="text-center"><u>Compétences</u></h2>
-        <div class="row text-center">
-            <div class="col-md-4">
+        <div class="row text-center text-dark" style="background-color: #8e44ad;">
+            <h3 class="text-start text-light">Compétences</h3>
+            <div class="col-md-4 bg-info" style="background-color: #007BFF;">
                 <i class="bi bi-code-slash" style="font-size: 2rem;"></i>
                 <h3>Développement Front-End</h3>
                 <p>HTML, CSS, JavaScript, Bootstrap</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" style="background-color: #ECF0F1;">
                 <i class="bi bi-server" style="font-size: 2rem;"></i>
                 <h3>Développement Back-End</h3>
                 <p>Python, Django, PHP</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" style="background-color: #f39c12;">
                 <i class="bi bi-database" style="font-size: 2rem;"></i>
                 <h3>Base de Données</h3>
                 <p>MySQL, PostgreSQL</p>
@@ -69,37 +71,42 @@
 </section>
 
 <!-- Section Projets -->
-<section id="projects" class="p-5 bg-light">
-    <div class="container">
-        <h2 class="text-center">Projets</h2>
-        <div class="row">
+<section id="projects" class="p-2">
+    <div class="container">   
+        <div class="row" style="background-color: #8e44ad;">
+            <h3 class="text-strat text-light">Projets</h3>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="projet1.jpg" class="card-img-top" alt="Projet 1">
+                    <img src="./image/img3.png" class="card-img-top" alt="Projet 1">
                     <div class="card-body">
                         <h5 class="card-title">Projet 1</h5>
-                        <p class="card-text">Description du projet.</p>
-                        <a href="#" class="btn btn-primary">Voir plus</a>
+                        <p class="card-text">
+                            Dans un monde de plus en plus numérique, où les habitudes des consommateurs évoluent à grande vitesse, il devient essentiel pour toute entreprise de s'adapter aux nouvelles réalités. Avoir un site web n'est pas seulement un moyen de rester compétitif, c'est un véritable levier pour accélérer la croissance de votre entreprise. Si vous hésitez encore à franchir le pas, il est temps de comprendre à quel point un site web peut transformer votre activité et vous ouvrir de nouvelles portes.
+                        </p>
+                        <a href="mailto:andersonkamateakm@gmail.com" class="btn btn-outline-primary">Contact</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="projet2.jpg" class="card-img-top" alt="Projet 2">
+                    <img src="./image/img2.png" class="card-img-top" alt="Projet 2">
                     <div class="card-body">
                         <h5 class="card-title">Projet 2</h5>
-                        <p class="card-text">Description du projet.</p>
-                        <a href="#" class="btn btn-primary">Voir plus</a>
+                        <p class="card-text">
+                            Dans un marché hôtelier de plus en plus compétitif, disposer d’un site web est devenu essentiel pour toute structure souhaitant attirer de nouveaux clients et se démarquer. Un site internet bien conçu permet à votre hôtel de se faire connaître bien au-delà des frontières locales, offrant une visibilité 24h/24 et 7j/7 à tous les voyageurs à la recherche d’un hébergement. En plus de renforcer votre présence en ligne, il permet à vos clients potentiels de découvrir facilement vos services, vos chambres, vos tarifs et vos offres spéciales, sans avoir à se déplacer.
+                        </p>
+                        <a href="mailto:andersonkamateakm@gmail.com" class="btn btn-outline-primary">Contact</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="projet3.jpg" class="card-img-top" alt="Projet 3">
+                    <img src="./image/img1.png" class="card-img-top" alt="Projet 3">
                     <div class="card-body">
                         <h5 class="card-title">Projet 3</h5>
-                        <p class="card-text">Description du projet.</p>
-                        <a href="#" class="btn btn-primary">Voir plus</a>
+                        <p class="card-text">
+                            Avoir un site de e-commerce permet à votre boutique d’élargir son marché au-delà de la clientèle locale et de toucher des acheteurs partout, à toute heure.</p>
+                            <a href="mailto:andersonkamateakm@gmail.com" class="btn btn-outline-primary">Contact</a>
                     </div>
                 </div>
             </div>
@@ -108,20 +115,11 @@
 </section>
 
 <!-- Section Contact -->
-<section id="contact" class="p-5 bg-dark text-white">
+<section id="contact" class="p-6 bg-dark text-white">
     <footer class="container">
         <div class="row">
-            <div class="col-md-4 me-auto">
-                <a class="nav-link link-warning" href="mailto:andersonkamateakm@gmail.com">Contact</a>
-            </div>
-            <div class="col-md-4 mx-auto">
-                <a class="text-decoration-none" href="#">fb</a>
-                <a href="#">insta</a>
-                <a href="#">tiktok</a>
-                <a href="#">linkeIn</a>
-            </div>
-            <div class="col-md-4 ms-auto text-info"> 
-                copy right 2024, anderson kamate all right reserved
+            <div class="col-md-4 mx-auto text-info"> 
+                &copy; Copyright 2024, anderson kamate all right reserved
             </div>
         </div>
     </footer>
@@ -129,5 +127,6 @@
 
 <!-- Script Bootstrap -->
  <script src="./js_css/bootstrap.bundle.min.js"></script>
+ <script></script>
 </body>
 </html>
